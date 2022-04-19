@@ -1,0 +1,7 @@
+<form action="/create" method="post" id="newdoc">
+  <label for="filename">Add a new document:</label>
+  <div>
+    <input type="text" name="filename" value="<%=params[:name]%>" form="newdoc">
+    <button type="submit" form="newdoc">Create</button>
+  </div>
+</form>
